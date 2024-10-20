@@ -23,7 +23,7 @@ Disasters strike unexpectedly, and rapid response can save lives. Our goal was t
 
  <img width="1440" alt="Screenshot 2024-10-20 at 11 45 00 AM" src="https://github.com/user-attachments/assets/7f98657b-1d93-4387-b13c-3ff50cc5d1f6">
 
-## 🛠️ How We Built It
+## 🛠️ How I Built It
 
 ### **Technologies & Tools**
 - **Fetch.ai**: Used to build the agents responsible for coordinating the disaster response system.
@@ -61,7 +61,7 @@ Disasters strike unexpectedly, and rapid response can save lives. Our goal was t
    - **Distress Calls Dashboard**: Displays distress calls and their severity levels.
    - **Drone Results Dashboard**: Displays analysis results of the drone images, including the descriptions and priority levels, powered by **Groq**.
 
-## ⚠️ Challenges We Faced
+## ⚠️ Challenges I Faced
 
 - **Coordination Between Multiple Agents**: Ensuring that the agents worked in sequence and communicated effectively posed a challenge. We used **Fetch.ai**'s agent framework to create an efficient, scalable communication network.
 - **Visual Data Processing**: Processing drone images in real-time with **Hyperbolic LLaMA Vision** was a complex task, requiring careful tuning to ensure accurate human detection.
@@ -73,7 +73,7 @@ Disasters strike unexpectedly, and rapid response can save lives. Our goal was t
 - Integrated **Hyperbolic's LLaMA Vision**, **Deepgram**, and **Vapi** to create a system capable of both real-time analysis and communication.
 - Built highly interactive and responsive **dashboards** that visually represent the distress and drone results.
 
-## 📚 What We Learned
+## 📚 What I Learned
 
 - **AI Can Save Lives**: Building this system showed us the power of AI in making real-time, life-saving decisions.
 - **Agent Communication**: We learned a lot about orchestrating multiple agents using **Fetch.ai** and ensuring smooth, synchronous workflows between them.
