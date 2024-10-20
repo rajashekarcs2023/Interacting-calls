@@ -98,6 +98,4 @@ This project was made possible thanks to the following amazing technologies:
 
 **Autonomous AI Society** is an intelligent disaster response system powered by AI agents, capable of analyzing distress calls, dispatching drones, detecting humans in floods, and coordinating rescue efforts via phone calls to emergency teams. It streamlines disaster management, allowing for faster and more effective rescues.
 
----
 
-With this `README.md`, your project structure, sponsors, technologies used, and overall workflow will be well-documented for a hackathon submission or any presentation!
