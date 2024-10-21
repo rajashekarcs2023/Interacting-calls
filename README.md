@@ -63,7 +63,7 @@ Disasters strike unexpectedly, and rapid response can save lives. Our goal was t
 
 ## ⚠️ Challenges I Faced
 
-- **Coordination Between Multiple Agents**: Ensuring that the agents worked in sequence and communicated effectively posed a challenge. We used **Fetch.ai**'s agent framework to create an efficient, scalable communication network.
+- **Coordination Between Multiple Agents**: Ensuring that the agents worked in sequence and communicated effectively posed a challenge. I used **Fetch.ai**'s agent framework to create an efficient, scalable communication network.
 - **Visual Data Processing**: Processing drone images in real-time with **Hyperbolic LLaMA Vision** was a complex task, requiring careful tuning to ensure accurate human detection.
 - **Prioritization**: Determining the right priorities for rescue missions was critical. **Groq**'s risk analysis inference helped streamline this process.
 
