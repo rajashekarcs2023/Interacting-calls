@@ -9,7 +9,7 @@ An autonomous system of AI agents performing intelligent disaster response, from
 
 ## 🚀 Inspiration
 
-Disasters strike unexpectedly, and rapid response can save lives. Our goal was to build an **autonomous AI-driven system** capable of managing and coordinating disaster response efforts—from analyzing distress calls to deploying drones and ensuring rescue teams reach the right location with minimal delay. This project seeks to demonstrate how AI agents can work together, making real-time decisions and coordinating disaster response, reducing human effort, and saving lives.
+Disasters strike unexpectedly, and rapid response can save lives. My goal was to build an **autonomous AI-driven system** capable of managing and coordinating disaster response efforts—from analyzing distress calls to deploying drones and ensuring rescue teams reach the right location with minimal delay. This project seeks to demonstrate how AI agents can work together, making real-time decisions and coordinating disaster response, reducing human effort, and saving lives.
 
 ## 💡 What It Does
 
