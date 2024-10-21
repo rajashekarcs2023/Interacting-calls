@@ -69,7 +69,7 @@ Disasters strike unexpectedly, and rapid response can save lives. My goal was to
 
 ## 🌟 Accomplishments
 
-- Successfully deployed an **end-to-end autonomous system** that manages disaster response, from analyzing distress calls to dispatching drones and making calls to rescue teams.
+- Successfully deployed an **end-to-end autonomous system** that manages disaster response, from analyzing distress calls to dispatching drones, detecting humans in flooded waters and making calls to rescue teams.
 - Integrated **Hyperbolic's LLaMA Vision**, **Deepgram**, and **Vapi** to create a system capable of both real-time analysis and communication.
 - Built highly interactive and responsive **dashboards** that visually represent the distress and drone results.
 
