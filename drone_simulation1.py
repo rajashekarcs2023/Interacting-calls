@@ -24,7 +24,7 @@ def resize_image(image, max_width, max_height):
     return pygame.transform.smoothscale(image, (width, height))
 
 def lat_lon_to_pixel(lat, lon, min_lat, max_lat, min_lon, max_lon, width, height):
-    x = (lon - min_lon) / (max_lon - min_lon) * width
+    x = (lon - min_lon) 
     y = height - ((lat - min_lat) / (max_lat - min_lat) * height)
     return int(x), int(y)
 
@@ -99,23 +99,6 @@ def drone_response_simulation(target_city_name):
 
         screen.blit(florida_map, (0, 0))
 
-        for city in cities:
-            x, y = lat_lon_to_pixel(city["lat"], city["lon"], min_lat, max_lat, min_lon, max_lon, width, height)
-            pygame.draw.circle(screen, RED, (x, y), 5)
-            text = font.render(city["name"], True, BLACK)
-            text_rect = text.get_rect(center=(x, y - 15))
-            screen.blit(text, text_rect)
-
-        if mission_active:
-            drone_angle = math.atan2(target_city["lat"] - drone_lat, target_city["lon"] - drone_lon)
-            
-            drone_lat += drone_speed * math.sin(drone_angle)
-            drone_lon += drone_speed * math.cos(drone_angle)
-
-            distance = math.sqrt((target_city["lat"] - drone_lat)**2 + (target_city["lon"] - drone_lon)**2)
-            if distance < 0.05:
-                mission_active = False
-                running = False
 
         drone_x, drone_y = lat_lon_to_pixel(drone_lat, drone_lon, min_lat, max_lat, min_lon, max_lon, width, height)
         rotated_drone = rotate_drone(drone_image, -drone_angle)
